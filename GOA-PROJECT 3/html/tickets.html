@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tickets.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <!-- header - კონტენტი  -->
+    <header>
+        <div class="container-box">
+            <div class="navbar-logo">
+                <img src="https://cdn.dribbble.com/userupload/4729379/file/original-71b8358ef471cf9c7df08cc35fa39d35.jpg?resize=400x0" width="150px" alt="">
+            </div>
+            <!-- ნავიგაციები -->
+            <nav>
+                <div class="navbar-intro">
+                    <div class="navbar-info">
+                        <a href="./home.html"><img class="photo" src="../picture/home.png" alt=""> Home</a>
+                        <a href="./tickets.html"><img class="photo" src="../picture/ticket.png" alt=""> Tickets</a>
+                        <a href="./Discovered.html"><img class="photo" src="../picture/Discover.png" alt=""> Discovered</a>
+                        <a href="./comming soon.html"><img class="photo" src="../picture/coming-soon.png" alt=""> Coming soon</a>
+                        <a href="./registration.html"><img class="photo" src="../picture//profile.png" alt=""> Register</a>
+                        <a href="./settings.html"><img class="photo" src="../picture/settings-gear-icon.png" alt=""> settings</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- მთავარი კონტენტი -->
+    <main>
+        <h1>ბილეთების გაყიდვა</h1>
+        <p class="lead">მარტივი გვერდი ფილმებზე ბილეთების შესაძენად. აირჩიეთ ფილმი, დრო და რაოდენობა — შემდეგ დაანგარიშეთ და "გამოყიდეთ".</p>
+
+    <div class="card">
+        <label for="movie">ფილმი</label>
+        <select id="movie">
+            <option value="10">ზღვის თავგადასავალი — 10 ₾ (2 საათი)</option>
+            <option value="12">კომედია ღამისთვის — 12 ₾ (1ს 40წ)</option>
+            <option value="8">ანიმაცია ბავშვებისთვის — 8 ₾ (1ს 20წ)</option>
+        </select>
+    
+        <label for="time">დრო</label>
+        <select id="time">
+            <option>12:00</option>
+            <option>15:30</option>
+            <option>18:00</option>
+            <option>20:30</option>
+        </select>
+    
+        <div class="row">
+            <div>
+                <label for="qty">ბილეთების რაოდენობა</label>
+                <input id="qty" type="number" min="1" value="1">
+            </div>
+            <div>
+                <label for="discount">დარჩენა/ვაუჩერი (ტექსტი)</label>
+                <input id="discount" placeholder="(არასავალდებულო)">
+            </div>
+        </div>
+    
+        <div class="summary" id="summary">
+            <div>ფასი თითოეული: <span id="price">10</span> ₾</div>
+            <div>საერთო: <strong id="total">10</strong> ₾</div>
+        </div>
+    
+        <a href="tickets2.html"><button id="buy">ყიდვა</button></a>
+    
+        <div id="message" class="hidden card" style="margin-top:12px"></div>
+    </div>
+    
+    </main>
+    </div>
+    <br><br>
+    <!-- footer კონტენტი -->
+    <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>კატეგორიები</h4> 
+            <ul>
+                <li>დრამა</li>
+                <li>თრილერი</li>
+                <li>კომედია</li>
+                <li>დოკუმენტური</li>
+                <li>მოძრაობა და თავგადასავალი</li>
+                <li>ანიმაცია</li>
+                <li>მეცნიერული ფანტასტიკა</li>
+                <li>საშინელება</li>
+                <li>ქართული კინო</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>სასარგებლო ბმულები</h4>
+            <ul>
+                <li>ახალი ფილმები</li>
+                <li>პოპულარული ფილმები</li>
+                <li>გალერეა</li>
+                <li>მომავალი პრემიერები</li>
+                <li>ბლოგი</li>
+                <li>ფილმის რეკომენდაციები</li>
+                <li>ხშირად დასმული კითხვები</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <ul>
+                <h4>საკონტაქტო ინფორმაცია</h4>
+                <li>ცხელი ხაზი: 0 800 80 08 08</li>
+                <li>მისამართი: კინოს ქუჩა 7, თბილისი</li>
+                <li>ელ.ფოსტა: info@filmgeorgia.ge</li>
+            </ul>
+            <h4>სოციალური ქსელები</h4>
+            <ul>
+                <li><a href=""><img src="https://static.vecteezy.com/system/resources/previews/042/127/158/non_2x/round-blue-facebook-logo-with-white-thick-border-and-long-shadow-on-a-transparent-background-free-png.png" alt="">Facebook</a></li>
+                <li><a href=""><img src="https://img.freepik.com/premium-vector/instagram-round-logo-vector_667864-118.jpg" alt="">Instagram</a></li>
+                <li><a href=""><img src="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-youtube-play-button-sign-video-icon-logo-online-broadcasting-service-symbol-png-image_10292108.png" alt="">YouTube</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h4>დამატებითი ბმულები</h4>
+            <ul>
+                <li>კინო არქივი</li>
+                <li>ქართული რეჟისორები</li>
+                <li>ფესტივალები და ღონისძიებები</li>
+                <li>კინო სკოლები</li>
+                <li>მეგობარი ვებსაიტები</li>
+                <li>დისტრიბუციის პარტნიორები</li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy;2025 Georgian Film Hub • ყველა უფლება დაცულია</p>
+</footer>
+</body>
+</html>

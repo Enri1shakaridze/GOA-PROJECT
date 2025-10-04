@@ -1,0 +1,147 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    position: relative;
+    background-image: url("https://storage.georgia.travel/images/georgia-wine-qartuli-ghvino.webp");
+    height: 720px;
+    border-radius: 14px;
+    padding-bottom: -30px;
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 100px;
+    margin-top: -5px;
+}
+#logo-img {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    margin-top: -80px;
+    text-align: center;
+    margin-left: 350px;
+}
+header a:hover {
+    color: black;
+}
+#main-intro {
+    margin-left: 100px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+#main-title {
+    font-size: 50px;
+}
+#main-description {
+    font-size: 15px;
+}
+#main-btn {
+    background-color: red;
+    font-size: 20px;
+    width: 160px;
+    height: 70px;
+    border-radius: 14px;
+    margin-left: 80px;
+}
+#input {
+    margin-top: -10px;
+}
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 14px;
+}
+.div-1n {
+    margin-left: 550px;
+    transform: translateY(-60px);
+    color: rgba(9, 9, 9, 0.589);
+    font-size: 18px;
+}
+#h1p {
+    transform: translateY(-100px);
+}
+#h1-div {
+    color: black;
+    font-size: 30px;
+}
+.classs h3 {
+    color: red;
+}
+.classs {
+    margin-left: 200px;
+    transform: translateY(100px);
+}
+.class p, a {
+    text-decoration: none;
+    color: black;
+}
+.div-1n img {
+    width: 700px;
+}
+#h2-div {
+    color: black;
+    font-size: 30px;
+}
+#h3-div {
+    color: black;
+    font-size: 30px;
+}
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+}
+.footer-column img {
+    width: 17px;
+}

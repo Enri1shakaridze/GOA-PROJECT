@@ -1,0 +1,262 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-image: url("https://phoebe.on.ge/2017/09/30/1.jpg");
+    height: 500px;
+}
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    margin-top: -5px;
+}
+#logo-img {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    margin-top: -80px;
+    text-align: center;
+    margin-left: 350px;
+}
+header a:hover {
+    color: rgb(255, 0, 0);
+}
+#main-intro {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#main-title {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+#main-description {
+    font-size: 16px;
+}
+#travel-btn {
+    background-color: red;
+    font-size: 20px;
+    width: 160px;
+    height: 70px;
+    border-radius: 14px;
+    margin-left: 80px;
+}
+#input {
+    margin-top: -10px;
+}
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 14px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px; /* ქვემოთ გამოჩნდეს */
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* ნახევრად გამჭვირვალე შავი ფონით */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption1 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption2 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image-container3 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption3 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* ნახევრად გამჭვირვალე შავი ფონით */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image-container4 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container4 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption4 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#idn1 {
+    text-align: center;
+}
+.image-container4,
+.image-container3,
+.image-container2,
+.image-container1,
+.image-container {
+    width: 15%;
+    height: 50%;
+}
+.image-container4 img,
+.image-container3 img,
+.image-container2 img,
+.image-container1 img,
+.image-container img {
+    border-radius: 14px;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+}
+.footer-column img {
+    width: 17px;
+}
+.photo-conteiner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url("https://www.turebi.ge/uploads/photos/tours1/large/41315_2.jpg?v=6");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 720px;
+    position: relative;
+    border-radius: 14px;
+    transform: translateY(50px);
+}
+.buneba-container {
+    margin-left: 200px;
+    transform: translateY(200px);
+}
+.buneba-container h1 {
+    font-size: 40px;
+}
+.buneba-container a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+.buneba-container button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff0101;
+    height: 50px;
+    border-radius: 14px;
+}

@@ -1,0 +1,102 @@
+/* მთავარი გვერდის სტილი */
+body {
+  font-family: 'Montserrat', sans-serif; /* შრიფტის გამოყენება */
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+      url('https://images.unsplash.com/photo-1605647540924-92ad82c6c29d?auto=format&fit=crop&w=1600&q=80') 
+              no-repeat center center/cover; /* ფონური სურათი შავ ნახევრად გამჭვირვალე ფენასთან ერთად */
+  height: 100vh; /* სრული ეკრანის სიმაღლე */
+  display: flex; /* center */
+  justify-content: center; /* ჰორიზონტალურად ცენტრში */
+  align-items: center;     /* ვერტიკალურად ცენტრში */
+  color: #fff; /* ტექსტის ფერი */
+}
+
+/* სარეგისტრაციო ფორმის კონტეინერი */
+.registration-container {
+  background: rgba(0, 0, 0, 0.75); /* მუქი  გამჭვირვალე ფონი */
+  padding: 40px; /* შიდა ზღვარი */
+  border-radius: 10px; /* რბილი კუთხეები */
+  width: 100%;   /* სისქე */
+  max-width: 400px; /* მაქსიმალური სიგანე */
+  box-shadow: 0 0 20px rgba(216, 5, 5, 0.1); /* ჩრდილი */
+}
+
+/* სათაურის სტილი */
+.registration-container h1 {
+  text-align: center; /* ცენტრში ტექსტი */
+  margin-bottom: 30px; /* ქვედა ზღვარი */
+  font-weight: 600; /* მსხვილი შრიფტი */
+  font-size: 2rem; /* ზომა */
+  color: #ff2a00; /* ოქროსფერი */
+  letter-spacing: 1px; /* სიმბოლოებს შორის დაშორება */
+}
+
+/* ლეიბლები (სახელები ველებისთვის) */
+label {
+  display: block; /* ახალ ხაზზე */
+  margin: 15px 0 5px; /* ზემოდან და ქვემოდან დაშორება */
+    font-size: 0.9rem;
+  font-weight: 300; /* თხელი ტექსტი */
+}
+
+/* ტექსტური ველების სტილი */
+input {
+  width: 100%; /* სრული სიგანე */
+  padding: 12px; /* შიდა ზღვარი */
+  border: none;
+  border-radius: 5px;
+  background-color: #222; /* მუქი ფონი */
+  color: #fff; /* ტექსტის ფერი */
+  font-size: 1rem;
+}
+
+/* Placeholder ტექსტის ფერი */
+input::placeholder {
+  color: rgb(236, 9, 9);
+}
+/* ღილაკის სტილი */
+.btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background: #ff0000; /* ოქროსფერი ფონი */
+  border: none;
+  color: #000; /* შავი ტექსტი */
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.3s ease; /* გლუვი ეფექტი */
+}
+
+/* ღილაკზე გადატარებისას ფონის შეცვლა */
+.btn:hover {
+  background: #e6c200; /* ოდნავ მუქი ოქროსფერი */
+}
+.btn2 {
+  transform: translateY(-340px) translateX(580px);
+  margin-top: 25px;
+  width: 100px;
+  padding: 12px;
+  background: #ff0000; /* ოქროსფერი ფონი */
+  border: none;
+  color: #000; /* შავი ტექსტი */
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.3s ease; /* გლუვი ეფექტი */
+}
+.btn2 a {
+  text-decoration: none;
+  color: #000;
+}
+/* ღილაკზე გადატარებისას ფონის შეცვლა */
+.btn2:hover {
+  background: #e6c200; /* ოდნავ მუქი ოქროსფერი */
+}
+/* ქვედა ტექსტი (footer) */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: red
+}

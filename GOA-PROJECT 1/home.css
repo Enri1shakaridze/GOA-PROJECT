@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* ტექსტის ანუ შრიფტის ოჯახს, კლასს განსაზღვრავს font-family თვისება. */
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);  /* ფონის სტილი */
+    margin: 0; /* margin თვისება განსაზღვრავს ელემენტის ირგვლივ სივრცეს ანუ დაშორებას მის ირგვლივ არსებულ ელემენტებთან. */
+    padding: 0; /* padding განსაზღვრავს ელემენტის ჩარჩოებიდან, საზღვრებიდან მის შიგთავსამდე მანძილს. */
+    text-align: center;  /* ელემენტში ტესქტის ჰორიზონტალურად განთავსების დასარეგულირებლად გამოიყენება text-align */
+    color: #333; /* ტექსტის ფერის განსაზღვრისათვის გამოიყენება color */
+    }
+
+nav {
+    background-color: #fff;  /* background-color თვისება განსაზღვრავს ელემენტის ფონის ფერს */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* ჩრდილი ელემენტის გარშემო */
+    }
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none; /* ტექსტის დეკორაციების მისათითებლად ან წასაშლელად გამოიყენება text-decoration */
+    }
+
+nav button {
+    padding: 10px 20px;
+    border: none; /* ცხრილის ჩარჩოების სტილის განსასაზღვრავად გამოიყენება border თვისება.*/
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px; /* შრიფტის ზომას განსაზღვრავს font-size */
+    border-radius: 8px;
+    cursor: pointer; /* მაუსის კურსორის ტიპი */
+    transition: background-color 0.3s ease; /* განსაზღვრავს რამდენ ხანშ და როგორ მოხვდეს ცვლილება სტილში */
+    }
+
+nav button:hover {
+    background-color: #45a049;
+    }
+
+h1 {
+    margin-top: 40px; 
+    font-size: 36px;
+    color: #2c3e50;
+    }
+
+p {
+    max-width: 800px; /*  ელემენტის მაქსიმალური სიგანის მისათითებლად გამოიყენება max-width*/
+    margin: 20px auto; /* იმისათვის რათა ელემენტი მოთავსდეს კონტეინერის ჰორიზონტალურ ცენტრში გამოიყენება margin თვისების auto მნიშვნელობა. */
+    font-size: 18px;
+    line-height: 1.6; /* ტექსტში ხაზებს შორის მანძილი */
+    padding: 0 20px;
+    }
+
+img {
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }

@@ -1,0 +1,341 @@
+
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-info {
+    display: grid;
+    gap: 35px; 
+    margin-top: 70px;
+}
+.container-box {
+    border-right: 2px solid rgba(128, 128, 128, 0.505);
+    height: 175vh;
+}
+.container{
+    display: flex;
+    margin-left: 150px;
+}
+.navbar-info a {
+    transform: translateX(-50px);
+    display: flex;
+    align-items: center;  
+    gap: 10px;            
+    text-decoration: none; 
+    color: rgb(8, 6, 6);         
+    font-size: 18px;
+    transition: 1s;
+}
+.navbar-info a:hover {
+    color: rgb(220, 4, 4);
+    box-shadow: 0 0 5px solid black;
+}
+.navbar-intro a img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.navbar-logo {
+    transform: translateX(-70px);
+    margin-top: 25px;
+}
+.main-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.immediate.co.uk/production/volatile/sites/3/2023/10/AttackonTitanFinalSeasonTHEFINALCHAPTERSSpecial1Still1.6-Cropped-5843dc9.jpg?quality=90&resize=980,654");
+    margin-left: 55px;
+    width: 800px;
+    height: 350px;
+    border-radius: 16px;
+    transform: translateY(50px);
+}
+.main-img h1{
+    transform: translateY(200px);
+    margin-left: 30px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.main-img button{
+    transform: translateY(180px);
+    margin-left: 30px;
+    background-color: red;
+    padding: 13px;
+    width: 90px;
+    border: none;
+    border-radius: 14px;
+}
+
+.main-img p{
+    transform: translateY(180px);
+    margin-left: 30px;
+    font-size: 15px;
+    color:antiquewhite;
+}
+.main-link {
+    margin-left: 55px;
+    transform: translateY(25px);
+}
+.main-link a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(98, 92, 92);
+    transition: 1s;
+}
+.main-link a:hover {
+    color: rgb(203, 0, 0);
+    box-shadow: 0 0 5px solid black;
+}
+.box-btn a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 1s;
+}
+.box-btn button{
+    background-color: #eb0000;
+    transition: 1s;
+}
+.box-btn button:hover{
+    background-color: rgb(114, 7, 7);
+}
+.display-flex {
+    display: flex;
+}
+.topstar-1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgksikcXH3PEB83PDiCVrBca8jb_D6zXUOhg&s");
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+}
+.topstar-2 {
+    background-image: url("https://img.mykadri.click/uploads/posts/2025-08/thumbs/poster-geo-dmn.jpg");
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+}
+.topstar-3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/1/1f/Ninja_Kamui_BD.png");
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+}
+.topstar-4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44eoe-h94VK0nSHVJxr_DKWIpRpBY113_BA&s");
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+}
+.topstar-4 h2 {
+    transform: translateY(180px);
+    color: antiquewhite;
+    margin-left: 10px;
+}
+.topstar-3 h2 {
+    transform: translateY(180px);
+    color: antiquewhite;
+    margin-left: 10px;
+}
+.topstar-2 h2 {
+    transform: translateY(180px);
+    color: antiquewhite;
+    margin-left: 10px;
+}
+.topstar-1 h2 {
+    transform: translateY(160px);
+    color: antiquewhite;
+    margin-left: 10px;
+}
+.dsp-flx {
+    transform: translateY(90px);
+    display: flex;
+    gap: 2px;
+    margin-left: 50px;
+
+}
+#top-header{
+    transform: translateY(90px);
+    margin-left: 55px;
+}
+#similar-header {
+    margin-top: 150px;
+    transform: translateX(55px);
+}
+.similar-movies{
+    display: flex;
+    height: 390px;
+    margin-left: 50px ;
+    gap: 10px;
+}
+.similar-movies img{
+    border-radius: 14px;
+    width: 270px;
+}
+aside{
+    border-left: 2px solid grey;
+    height: 175vh;
+    margin-left: 30px;
+}
+#input {
+    margin-left: 50px;
+    transform: translateY(-4px);
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 16px;
+}
+#aside-info-img {
+    margin-top: 35px;
+    transform: translateX(-42px);
+}
+.aside-info h3{
+    margin-left: 48px;
+    transform: translateY(15px);
+}
+#aside-photo1{
+    height: 140px;
+    transform: translateX(-30px);
+    margin-top: 30px;
+    border-radius: 16px;
+}
+.aside-info p {
+    margin-left: 165px;
+    transform: translateY(-165px);
+}
+#photo-aside {
+    transform: translateX(170px);
+}
+#photo-aside1{
+    transform: translateX(60px);
+}
+#aside-photo2 {
+    transform: translateX(45px);
+    border-radius: 16px;
+}
+#aside-photo3{
+    border-radius: 16px;
+    transform: translateX(48px);
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    margin-left: 40px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+    transform: translateY(10px);
+}
+.footer-column img {
+    width: 17px;
+}
+
+.main-img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://a.storyblok.com/f/178900/960x540/6e6bcda041/demon-slayer.jpg/m/filters:quality(95)format(webp)");
+    margin-left: 55px;
+    width: 800px;
+    height: 350px;
+    border-radius: 16px;
+    transform: translateY(50px);
+    margin-bottom: 50px;
+}
+.main-img2 h1{
+    transform: translateY(200px);
+    margin-left: 30px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.main-img2 button{
+    transform: translateY(180px);
+    margin-left: 30px;
+    background-color: red;
+    padding: 13px;
+    width: 90px;
+    border: none;
+    border-radius: 14px;
+    transition: 1s;
+}
+
+.main-img2 p{
+    transform: translateY(180px);
+    margin-left: 30px;
+    font-size: 15px;
+    color:antiquewhite;
+}
+.main-img2 button a{
+    text-decoration: none;
+    color: azure;
+}
+.main-img2 button:hover {
+    background-color: #8d0606;
+}
+.main-img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/denji-smiles.jpg");
+    margin-left: 55px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    border-radius: 16px;
+    transform: translateY(50px);
+    margin-bottom: 50px;
+}
+.main-img3 h1{
+    transform: translateY(200px);
+    margin-left: 30px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.main-img3 button{
+    transform: translateY(180px);
+    margin-left: 30px;
+    background-color: red;
+    padding: 13px;
+    width: 90px;
+    border: none;
+    border-radius: 14px;
+    transition: 1s;
+}
+
+.main-img3 p{
+    transform: translateY(180px);
+    margin-left: 30px;
+    font-size: 15px;
+    color:antiquewhite;
+}
+.main-img3 button a{
+    text-decoration: none;
+    color: azure;
+}
+.main-img3 button:hover {
+    background-color: #8d0606;
+}

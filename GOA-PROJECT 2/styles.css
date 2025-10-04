@@ -1,0 +1,197 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-image: url("https://storage.georgia.travel/images/discover-unique-georgia.webp");
+    height: 720px;
+    position: relative;
+    border-radius: 14px;
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 100px;
+    margin-top: -5px;
+}
+#logo-img {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+img {
+    margin-top: 15px;
+    width: 100px;
+}
+nav {
+    display: flex;
+    gap: 50px;
+    margin-top: -80px;
+    text-align: center;
+    margin-left: 350px;
+}
+header a:hover {
+    color: rgb(0, 0, 0);
+}
+#main-intro {
+    margin-left: 100px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+#main-title {
+    font-size: 50px;
+}
+#main-description {
+    font-size: 15px;
+}
+#travel-btn {
+    background-color: red;
+    font-size: 20px;
+    width: 160px;
+    height: 70px;
+    border-radius: 14px;
+    margin-left: 80px;
+}
+#search-input {
+    margin-top: -10px;
+}
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 14px;
+}
+.intro-text {
+    transform: translateY(100px);
+    font-size: 25px;
+    color: rgb(77, 75, 75);
+    margin-left: 200px;
+}
+.experience-section {
+    font-size: 30px;
+    margin-left: 200px;
+}
+#strong {
+    color: black;
+}
+.intro-text img {
+    width: 300px;
+    margin-left: 500px;
+    transform: translateY(-230px);
+    border-radius: 14px;
+}
+#experience-text {
+    font-size: 20px;
+    transform: translateX(340px);
+    margin-top: -120px;
+}
+#photoo1,
+#photoo2,
+#photoo3,
+#photoo4 {
+    width: 300px;
+    border-radius: 14px;
+}
+.container-photto {
+    text-align: center;
+    display: flex 20px;
+}
+.food-image {
+    margin-left: 800px;
+    transform: translateY(-350px);
+}
+.food-image img {
+    width: 280px;
+    border-radius: 14px;
+}
+.food-text {
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.section1n {
+    background-image: url("https://cdn.fortuna.ge/app/uploads/2019/10/le-clos-des-lavandes-vignes-luberon-vaucluse.jpg-2019-10-30_15-47-18_879757.jpg");
+    width: 100%;
+    height: 800px;
+    border-radius: 14px;
+}
+footer {
+    text-align: center;
+}
+#content {
+    font-size: 20px;
+    color: antiquewhite;
+    transform: translateY(400px);
+}
+#gvino {
+    margin-left: 200px;
+    font-size: 50px;
+    transform: translateY(-100px);
+}
+#piteg {
+    margin-left: 200px;
+    transform: translateY(-100px);
+}
+#gvino-btn {
+    margin-left: 200px;
+    transform: translateY(-90px);
+    background-color: red;
+    font-size: 20px;
+    width: 160px;
+    height: 70px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#gvino-btn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#gvino-btn:hover {
+    color: black;
+}
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    margin-left: 40px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+    transform: translateY(10px);
+}
+.footer-column img {
+    width: 17px;
+}

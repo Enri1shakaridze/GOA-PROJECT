@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fcfcff;
+    /* გარეთა   */
+    margin: 0; 
+    /* შიგნითაა*/
+    padding: 0; 
+    color: #333;
+}
+
+header {
+    background-color: #224c77;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    width: 600px; 
+    /* ცენტრში მიჰყავს (left&right), თუ აქვს გარკვეული სიგანე  */
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.156);
+}
+
+section {
+    margin-top: 25px;
+}
+
+h1, h2 {
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #517497;
+    color: white;
+    border: none;
+    /* მაუსის ფორმა */
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: #00264d;
+}
+
+section a {
+    color: #165491;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    padding: 8px;
+    font-size: 14.5px;
+}

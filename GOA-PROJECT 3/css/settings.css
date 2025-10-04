@@ -1,0 +1,143 @@
+.settings-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transform: translateX(200px);
+    width: 600px;
+}
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+label {
+    display: block;
+    margin: 8px 0;
+}
+.section a {
+    text-decoration: none;
+}
+.section a:hover{
+    text-decoration: underline ;
+}
+input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+button.logout {
+    background-color: #607d8b;
+    margin-top: 10px;
+}
+
+button.danger {
+    transform: translateY(20px);
+    background-color: #f44336;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    margin-left: 40px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+    transform: translateY(10px);
+}
+.footer-column img {
+    width: 17px;
+}
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-info {
+    display: grid;
+    gap: 35px; 
+    margin-top: 70px;
+}
+.container-box {
+    border-right: 2px solid rgba(128, 128, 128, 0.505);
+    height: 100vh;
+}
+.container{
+    display: flex;
+    margin-left: 150px;
+}
+.navbar-info a {
+    transform: translateX(-50px);
+    display: flex;
+    align-items: center;  
+    gap: 10px;            
+    text-decoration: none; 
+    color: rgb(8, 6, 6);         
+    font-size: 18px;
+    transition: 1s;
+}
+.navbar-info a:hover {
+    color: rgb(220, 4, 4);
+    box-shadow: 0 0 5px solid black;
+}
+.navbar-intro a img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.navbar-logo {
+    transform: translateX(-70px);
+    margin-top: 25px;
+}

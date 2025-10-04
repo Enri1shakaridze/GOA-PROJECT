@@ -1,0 +1,141 @@
+body {
+    background: azure;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #0b79d0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* ზედა ხაზზე გასწორება */
+    gap: 30px; /* დაშორება მენიუსა და კონტენტის შორის */
+}
+.container-box {
+    border-right: 2px solid rgba(128, 128, 128, 0.505);
+    height: 90vh;
+    transform: translateX(130px);
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #0b79d0;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #095a99;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.summary {
+    background: #eee;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navbar-info {
+    display: grid;
+    gap: 35px; 
+    margin-top: 70px;
+    transform: translateX(-50px);
+}
+
+.navbar-info a {
+    display: flex;
+    align-items: center;  
+    gap: 10px;            
+    text-decoration: none; 
+    color: rgb(8, 6, 6);         
+    font-size: 18px;
+    transition: 0.3s;
+}
+.navbar-info a:hover {
+    color: rgb(220, 4, 4);
+}
+.navbar-logo {
+    transform: translateX(-55px) translateY(5px);
+}
+.navbar-intro a img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    margin-left: 40px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+
+footer p {
+    text-align: center;
+    transform: translateY(10px);
+}
+
+.footer-column img {
+    width: 17px;
+}
+main {
+    transform: translateX(150px) translateY(60px);
+}

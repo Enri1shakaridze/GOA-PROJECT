@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    }
+nav button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+p {
+    max-width: 8000px; 
+    margin: 20px auto; 
+    font-size: 18px;
+    line-height: 1.6; 
+    padding: 0 20px;
+    }

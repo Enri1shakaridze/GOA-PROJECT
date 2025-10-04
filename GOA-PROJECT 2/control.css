@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+}
+main {
+    background-image: url("https://cdn.georgiantravelguide.com/storage/thumbnails/mestia-in-winter.jpg");
+    height: 700px;
+    padding-top: 20px;
+}
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#p1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 90px;
+}
+.contact-tabs {
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: -450px;
+    border-radius: 14px;
+}
+.contact {
+    text-align: center;
+}
+.booking-form {
+    margin-top: 30px;
+}
+.provider {
+    width: 150px;
+    margin-top: 20px;
+    height: 70px;
+}
+.submit-btn {
+    width: 500px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: red;
+    border-radius: 14px;
+}
+.tab-active {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.button2 {
+    margin-top: 15px;
+    background-color: rgb(234, 70, 70);
+    border-radius: 14px;
+    border: solid black;
+}
+#num1 {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 14px;
+}
+#num2 {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 14px;
+}
+#num3 {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 14px;
+}
+#num4 {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 14px;
+}
+#num5 {
+    width: 200px;
+    height: 30px;
+    border-radius: 14px;
+}
+#num6 {
+    margin-top: 5px;
+    border-radius: 14px;
+}
+footer {
+    color: aliceblue;
+    text-align: center;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+}
+.footer-column img {
+    width: 17px;
+}
+.img-h1 {
+    display: flex;
+    gap: 50px;
+}
