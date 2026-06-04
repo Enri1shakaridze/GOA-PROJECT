@@ -102,6 +102,7 @@ class Bank:
         else:
             self.user_db[self._loged_in]['balance'] = self.user_db[self._loged_in]['balance'] - amount
             print(f"გადაირიცხა: {amount}")
+            # self.user_db[username]['balance'] += amount
 
 # ონისე ბილიხოძე
     def deposit(self, amount, currency="lari"):
