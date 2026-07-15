@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="shortcut icon"
+        href="https://cdn.dribbble.com/userupload/45075826/file/71db23ee6b4a938807b984afd8bec0b2.jpg?resize=400x300"
+        type="image/x-icon">
+    <title>Resturant</title>
+</head>
+
+<body>
+    <header>
+        <div class="main-header">
+            <div class="header-all">
+                <div class="header-1">
+                    <input type="checkbox" id="cx">
+                    <label for="cx" id="cxl">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav>
+                        <a href="../index.html">Welcome</a>
+                        <a href="../index.html#article3-all-menu">Our Menu</a>
+                        <a href="">Franchise</a>
+                        <a href="">Contact</a>
+                    </nav>
+                    <img src="../image/Chef.png" width="100px" alt="">
+                </div>
+                <div class="header-2">
+                    <div class="bgheaderimg">
+                        <div class="redbgcartlength">
+                            <p id="cartlen">0</p>
+                        </div>
+                    </div>
+                    <img src="../image/search.png" id="search" width="30px" alt="">
+                    <a id="heada" href="becomemember.html">Become a Member</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="allpayment">
+                    <div class="payment1">
+                        <h2>Payment Details</h2>
+                        <form>
+                            <input type="text" id="name" placeholder="Cardholder Name">
+                            <div class="cardnumberimg">
+                                <input type="text" id="cardnumber" placeholder="Card Number">
+                                <img id="visa" width="60px" height="40px" src="../image/visa-logo.jpg" alt="">
+                                <img id="master" width="60px" height="40px" src="../image/Mastercard_logo.jpg"alt="">
+                            </div>
+                            <div class="dateuser">
+                                <input id="mmyy" placeholder="Date (MM/YY)" type="text">
+                                <div class="dateuserblock">
+                                    <input id="cvv" placeholder="CVV" type="text">
+                                    <img src="../image/block.png" width="30px" alt="">
+                                </div>
+                            </div>
+                            <div class="billing">
+                                <h3>Billing Address</h3>
+                                <input id="street" placeholder="Street Address" type="text">
+                                <div class="citycode">
+                                    <input id="city" placeholder="City" type="text">
+                                    <input id="postal" placeholder="Postal Code" type="text">
+                                </div>
+                            </div>
+                            <textarea name="" id="txt"></textarea>
+                        </form>
+                    </div>
+                    <div class="maincartforseccond">
+                        <div class="ordersum">
+                            <h2>Order Summary</h2>
+                        </div>
+                        <div class="orderlist">
+                            <div class="orderlist1">
+                                <p>Subtotal</p>
+                                <span id="sub">$0</span>
+                            </div>
+                            <div class="orderlist2">
+                                <p>Delivery fee</p>
+                                <span id="fee">$0</span>
+                            </div>
+                            <div class="orderlist3">
+                                <p>Tax (10%)</p>
+                                <span id="Tax">$0</span>
+                            </div>
+                        </div>
+                        <div class="totalprice">
+                            <div class="totalprice1">
+                                <h3>Total</h3>
+                                <h2 id="totalred">$0</h2>
+                            </div>
+                            <div class="totalprice2">
+                                <button id="paymentbtn">
+                                    <img width="20px" src="../image/block.png" alt="">
+                                    <p>Process confirmationt</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div style="transform: translateX(10px);" class="supportdivgrid">
+                            <div class="supportdivgrid1">
+                                <div style="height: 40px;" class="supportdivgrid1-1">
+                                    <img width="40px" src="../image/delivery.png" alt="">
+                                </div>
+                                <div style="width: 100px;" class="supportdivgrid1-2">
+                                    <div class="supportdivgrid1-2-1">
+                                        <span>Fast Delivery</span>
+                                    </div>
+                                    <div class="supportdivgrid1-2-1">
+                                        <p>On All Orders</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="supportdivgrid1">
+                                <div style="height: 40px;" class="supportdivgrid1-1">
+                                    <img width="40px" src="../image/Qualuty.webp" alt="">
+                                </div>
+                                <div style="width: 100px;" class="supportdivgrid1-2">
+                                    <div class="supportdivgrid1-2-1">
+                                        <span>Best Quality</span>
+                                    </div>
+                                    <div class="supportdivgrid1-2-1">
+                                        <p>Always fresh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="supportdivgrid1">
+                                <div style="height: 40px;" class="supportdivgrid1-1">
+                                    <img width="40px" src="../image/payment.webp" alt="">
+                                </div>
+                                <div style="width: 100px;" class="supportdivgrid1-2">
+                                    <div class="supportdivgrid1-2-1">
+                                        <span>Secure Payment</span>
+                                    </div>
+                                    <div class="supportdivgrid1-2-1">
+                                        <p>100% Protected</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="supportdivgrid1">
+                                <div style="height: 40px;" class="supportdivgrid1-1">
+                                    <img width="40px" src="../image/support.png" alt="">
+                                </div>
+                                <div style="width: 100px;" class="supportdivgrid1-2">
+                                    <div class="supportdivgrid1-2-1">
+                                        <span>27/7 Support</span>
+                                    </div>
+                                    <div class="supportdivgrid1-2-1">
+                                        <p>We are here</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="allfooter">
+            <div class="footerfirst4">
+                <div class="footerfirst">
+                    <h2>Our Products</h2>
+                    <p>Our Menus</p>
+                    <p>Our Burgers</p>
+                    <p>Our time sides</p>
+                    <p>Our maandwiches</p>
+                </div>
+                <div class="footerfirst">
+                    <h2>Legal information</h2>
+                    <p>Legal notice</p>
+                </div>
+                <div class="footerfirst">
+                    <h2>Contact us</h2>
+                    <p>Contact</p>
+                    <p>Our Adress</p>
+                    <p>Become a time francesee</p>
+                </div>
+                <div class="footerfirst">
+                    <h2>We acept</h2>
+                    <img width="100px" height="55px" src="../image/Mastercard_logo.jpg" alt="">
+                    <img width="100px" height="55px" src="../image/visa-logo.jpg" alt="">
+                </div>
+            </div>
+            <div class="footersecond">
+                <div class="social-row">
+                    <div id="div-cube-1" class="social-btn"><img class="p1" src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt=""></div>
+                    <div id="div-cube-2" class="social-btn"><img class="p2" src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" alt=""></div>
+                    <div id="div-cube-3" class="social-btn"><img class="p3" src="https://cdn-icons-png.freepik.com/512/733/733635.png" alt=""></div>
+                    <div id="div-cube-4" class="social-btn"><img class="p4" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></div>
+                    <div id="div-cube-5" class="social-btn"><img class="p5" src="https://www.iconpacks.net/icons/2/free-facebook-messenger-icon-2882-thumb.png" alt=""></div>
+                </div>
+                <div class="info2">
+                    <p>&copy; 2024 Nayef All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="../js/payment.js"></script>
+    <script src="../js/cxcheked.js"></script>
+</body>
+
+</html>

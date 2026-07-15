@@ -1,0 +1,710 @@
+[
+    {
+        "Bread": [
+            {
+                "id": 1,
+                "name": "Naan Burger",
+                "category": "Bread",
+                "price": 1.85,
+                "image": "./image/Naan Burger.png",
+                "description": "Freshly prepared Naan Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 2,
+                "name": "Chicken Burger",
+                "category": "Bread",
+                "price": 2.0,
+                "image": "./image/Chiken Burger.png",
+                "description": "Freshly prepared Chicken Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 3,
+                "name": "Beef Burger",
+                "category": "Bread",
+                "price": 2.4,
+                "image": "./image/Beef Burger.png",
+                "description": "Freshly prepared Beef Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 4,
+                "name": "Cheese Burger",
+                "category": "Bread",
+                "price": 2.1,
+                "image": "./image/Chese Burger.png",
+                "description": "Freshly prepared Cheese Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 5,
+                "name": "Hot Dog",
+                "category": "Bread",
+                "price": 1.6,
+                "image": "./image/Hot dog.png",
+                "description": "Freshly prepared Hot Dog made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 6,
+                "name": "Chicken Sandwich",
+                "category": "Bread",
+                "price": 1.9,
+                "image": "./image/Chiken Sandwich Burger.png",
+                "description": "Freshly prepared Chicken Sandwich made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "Chiffon & Rolls": [
+            {
+                "id": 7,
+                "name": "Butter Chicken Taco",
+                "category": "Chiffon & Rolls",
+                "price": 1.15,
+                "image": "./image/Butter Chicken Taco.png",
+                "description": "Freshly prepared Butter Chicken Taco made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 8,
+                "name": "Chicken Wrap",
+                "category": "Chiffon & Rolls",
+                "price": 1.8,
+                "image": "./image/Chicken Wrap.png",
+                "description": "Freshly prepared Chicken Wrap made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 9,
+                "name": "Beef Wrap",
+                "category": "Chiffon & Rolls",
+                "price": 2.2,
+                "image": "./image/Beef Wrap.png",
+                "description": "Freshly prepared Beef Wrap made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 10,
+                "name": "Spring Roll",
+                "category": "Chiffon & Rolls",
+                "price": 1.4,
+                "image": "./image/Spring Roll.png",
+                "description": "Freshly prepared Spring Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 11,
+                "name": "Chicken Roll",
+                "category": "Chiffon & Rolls",
+                "price": 1.7,
+                "image": "./image/Chicken Roll.png",
+                "description": "Freshly prepared Chicken Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 12,
+                "name": "Veggie Roll",
+                "category": "Chiffon & Rolls",
+                "price": 1.5,
+                "image": "./image/Veggie Roll.png",
+                "description": "Freshly prepared Veggie Roll made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "Donut": [
+            {
+                "id": 13,
+                "name": "Chocolate Donut",
+                "category": "Donut",
+                "price": 1.2,
+                "image": "./image/Chocolate Donut.png",
+                "description": "Freshly prepared Chocolate Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 14,
+                "name": "Strawberry Donut",
+                "category": "Donut",
+                "price": 1.3,
+                "image": "./image/Strawberry Donut.png",
+                "description": "Freshly prepared Strawberry Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 15,
+                "name": "Vanilla Donut",
+                "category": "Donut",
+                "price": 1.25,
+                "image": "./image/Vanilla Donut.png",
+                "description": "Freshly prepared Vanilla Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 16,
+                "name": "Glazed Donut",
+                "category": "Donut",
+                "price": 1.1,
+                "image": "./image/Glazed Donut.png",
+                "description": "Freshly prepared Glazed Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 17,
+                "name": "Caramel Donut",
+                "category": "Donut",
+                "price": 1.35,
+                "image": "./image/Caramel Donut.png",
+                "description": "Freshly prepared Caramel Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 18,
+                "name": "Blueberry Donut",
+                "category": "Donut",
+                "price": 1.4,
+                "image": "./image/Blueberry Donut.png",
+                "description": "Freshly prepared Blueberry Donut made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "Pastry & Danish": [
+            {
+                "id": 19,
+                "name": "Croissant",
+                "category": "Pastry & Danish",
+                "price": 2.1,
+                "image": "./image/Croissant.png",
+                "description": "Freshly prepared Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 20,
+                "name": "Butter Croissant",
+                "category": "Pastry & Danish",
+                "price": 2.2,
+                "image": "./image/Butter Croissant.png",
+                "description": "Freshly prepared Butter Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 21,
+                "name": "Chocolate Danish",
+                "category": "Pastry & Danish",
+                "price": 2.4,
+                "image": "./image/Chocolate Danish.png",
+                "description": "Freshly prepared Chocolate Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 22,
+                "name": "Apple Danish",
+                "category": "Pastry & Danish",
+                "price": 2.3,
+                "image": "./image/Apple Danish.png",
+                "description": "Freshly prepared Apple Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 23,
+                "name": "Cheese Danish",
+                "category": "Pastry & Danish",
+                "price": 2.35,
+                "image": "./image/Cheese Danish.png",
+                "description": "Freshly prepared Cheese Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 24,
+                "name": "Cinnamon Roll",
+                "category": "Pastry & Danish",
+                "price": 2.5,
+                "image": "./image/Cinnamon Roll.png",
+                "description": "Freshly prepared Cinnamon Roll made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "Cakes": [
+            {
+                "id": 25,
+                "name": "Chocolate Cake",
+                "category": "Cakes",
+                "price": 3.5,
+                "image": "./image/Chocolate Cake.png",
+                "description": "Freshly prepared Chocolate Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 26,
+                "name": "Cheesecake",
+                "category": "Cakes",
+                "price": 3.8,
+                "image": "./image/Cheesecake.png",
+                "description": "Freshly prepared Cheesecake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 27,
+                "name": "Red Velvet Cake",
+                "category": "Cakes",
+                "price": 4.0,
+                "image": "./image/Red Velvet Cake.png",
+                "description": "Freshly prepared Red Velvet Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 28,
+                "name": "Vanilla Cake",
+                "category": "Cakes",
+                "price": 3.2,
+                "image": "./image/Vanilla Cake.png",
+                "description": "Freshly prepared Vanilla Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 29,
+                "name": "Black Forest Cake",
+                "category": "Cakes",
+                "price": 4.2,
+                "image": "./image/Black Forest Cake.png",
+                "description": "Freshly prepared Black Forest Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 30,
+                "name": "Cupcake",
+                "category": "Cakes",
+                "price": 2.4,
+                "image": "./image/Cupcake.png",
+                "description": "Freshly prepared Cupcake made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "Cookies": [
+            {
+                "id": 31,
+                "name": "Chocolate Cookie",
+                "category": "Cookies",
+                "price": 0.99,
+                "image": "./image/Chocolate Cookie.png",
+                "description": "Freshly prepared Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 32,
+                "name": "Butter Cookie",
+                "category": "Cookies",
+                "price": 1.1,
+                "image": "./image/Butter Cookie.png",
+                "description": "Freshly prepared Butter Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 33,
+                "name": "Oatmeal Cookie",
+                "category": "Cookies",
+                "price": 1.15,
+                "image": "./image/Oatmeal Cookie.png",
+                "description": "Freshly prepared Oatmeal Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 34,
+                "name": "Peanut Cookie",
+                "category": "Cookies",
+                "price": 1.2,
+                "image": "./image/Peanut Cookie.png",
+                "description": "Freshly prepared Peanut Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 35,
+                "name": "Double Chocolate Cookie",
+                "category": "Cookies",
+                "price": 1.35,
+                "image": "./image/Double Chocolate Cookie.png",
+                "description": "Freshly prepared Double Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 36,
+                "name": "Rainbow Cookie",
+                "category": "Cookies",
+                "price": 1.4,
+                "image": "./image/Rainbow Cookie.png",
+                "description": "Freshly prepared Rainbow Cookie made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "AllMore": [
+            {
+                "id": 1,
+                "name": "Naan Burger",
+                "category": "All",
+                "price": 1.85,
+                "image": "./image/Naan Burger.png",
+                "description": "Freshly prepared Naan Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 13,
+                "name": "Chocolate Donut",
+                "category": "All",
+                "price": 1.2,
+                "image": "./image/Chocolate Donut.png",
+                "description": "Freshly prepared Chocolate Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 31,
+                "name": "Chocolate Cookie",
+                "category": "All",
+                "price": 0.99,
+                "image": "./image/Chocolate Cookie.png",
+                "description": "Freshly prepared Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 19,
+                "name": "Croissant",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Croissant.png",
+                "description": "Freshly prepared Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 3,
+                "name": "Beef Burger",
+                "category": "All",
+                "price": 2.4,
+                "image": "./image/Beef Burger.png",
+                "description": "Freshly prepared Beef Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 4,
+                "name": "Cheese Burger",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Chese Burger.png",
+                "description": "Freshly prepared Cheese Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 7,
+                "name": "Butter Chicken Taco",
+                "category": "All",
+                "price": 1.15,
+                "image": "./image/Butter Chicken Taco.png",
+                "description": "Freshly prepared Butter Chicken Taco made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 5,
+                "name": "Hot Dog",
+                "category": "All",
+                "price": 1.6,
+                "image": "./image/Hot dog.png",
+                "description": "Freshly prepared Hot Dog made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 6,
+                "name": "Chicken Sandwich",
+                "category": "All",
+                "price": 1.9,
+                "image": "./image/Chiken Sandwich Burger.png",
+                "description": "Freshly prepared Chicken Sandwich made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 8,
+                "name": "Chicken Wrap",
+                "category": "All",
+                "price": 1.8,
+                "image": "./image/Chicken Wrap.png",
+                "description": "Freshly prepared Chicken Wrap made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 9,
+                "name": "Beef Wrap",
+                "category": "All",
+                "price": 2.2,
+                "image": "./image/Beef Wrap.png",
+                "description": "Freshly prepared Beef Wrap made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 10,
+                "name": "Spring Roll",
+                "category": "All",
+                "price": 1.4,
+                "image": "./image/Spring Roll.png",
+                "description": "Freshly prepared Spring Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 11,
+                "name": "Chicken Roll",
+                "category": "All",
+                "price": 1.7,
+                "image": "./image/Chicken Roll.png",
+                "description": "Freshly prepared Chicken Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 12,
+                "name": "Veggie Roll",
+                "category": "All",
+                "price": 1.5,
+                "image": "./image/Veggie Roll.png",
+                "description": "Freshly prepared Veggie Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 14,
+                "name": "Strawberry Donut",
+                "category": "All",
+                "price": 1.3,
+                "image": "./image/Strawberry Donut.png",
+                "description": "Freshly prepared Strawberry Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 15,
+                "name": "Vanilla Donut",
+                "category": "All",
+                "price": 1.25,
+                "image": "./image/Vanilla Donut.png",
+                "description": "Freshly prepared Vanilla Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 2,
+                "name": "Chicken Burger",
+                "category": "All",
+                "price": 2.0,
+                "image": "./image/Chiken Burger.png",
+                "description": "Freshly prepared Chicken Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 16,
+                "name": "Glazed Donut",
+                "category": "All",
+                "price": 1.1,
+                "image": "./image/Glazed Donut.png",
+                "description": "Freshly prepared Glazed Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 17,
+                "name": "Caramel Donut",
+                "category": "All",
+                "price": 1.35,
+                "image": "./image/Caramel Donut.png",
+                "description": "Freshly prepared Caramel Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 18,
+                "name": "Blueberry Donut",
+                "category": "All",
+                "price": 1.4,
+                "image": "./image/Blueberry Donut.png",
+                "description": "Freshly prepared Blueberry Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 20,
+                "name": "Butter Croissant",
+                "category": "All",
+                "price": 2.2,
+                "image": "./image/Butter Croissant.png",
+                "description": "Freshly prepared Butter Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 21,
+                "name": "Chocolate Danish",
+                "category": "All",
+                "price": 2.4,
+                "image": "./image/Chocolate Danish.png",
+                "description": "Freshly prepared Chocolate Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 22,
+                "name": "Apple Danish",
+                "category": "All",
+                "price": 2.3,
+                "image": "./image/Apple Danish.png",
+                "description": "Freshly prepared Apple Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 23,
+                "name": "Cheese Danish",
+                "category": "All",
+                "price": 2.35,
+                "image": "./image/Cheese Danish.png",
+                "description": "Freshly prepared Cheese Danish made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 24,
+                "name": "Cinnamon Roll",
+                "category": "All",
+                "price": 2.5,
+                "image": "./image/Cinnamon Roll.png",
+                "description": "Freshly prepared Cinnamon Roll made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 25,
+                "name": "Chocolate Cake",
+                "category": "All",
+                "price": 3.5,
+                "image": "./image/Chocolate Cake.png",
+                "description": "Freshly prepared Chocolate Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 26,
+                "name": "Cheesecake",
+                "category": "All",
+                "price": 3.8,
+                "image": "./image/Cheesecake.png",
+                "description": "Freshly prepared Cheesecake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 27,
+                "name": "Red Velvet Cake",
+                "category": "All",
+                "price": 4.0,
+                "image": "./image/Red Velvet Cake.png",
+                "description": "Freshly prepared Red Velvet Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 28,
+                "name": "Vanilla Cake",
+                "category": "All",
+                "price": 3.2,
+                "image": "./image/Vanilla Cake.png",
+                "description": "Freshly prepared Vanilla Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 29,
+                "name": "Black Forest Cake",
+                "category": "All",
+                "price": 4.2,
+                "image": "./image/Black Forest Cake.png",
+                "description": "Freshly prepared Black Forest Cake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 30,
+                "name": "Cupcake",
+                "category": "All",
+                "price": 2.4,
+                "image": "./image/Cupcake.png",
+                "description": "Freshly prepared Cupcake made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 32,
+                "name": "Butter Cookie",
+                "category": "All",
+                "price": 1.1,
+                "image": "./image/Butter Cookie.png",
+                "description": "Freshly prepared Butter Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 33,
+                "name": "Oatmeal Cookie",
+                "category": "All",
+                "price": 1.15,
+                "image": "./image/Oatmeal Cookie.png",
+                "description": "Freshly prepared Oatmeal Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 34,
+                "name": "Peanut Cookie",
+                "category": "All",
+                "price": 1.2,
+                "image": "./image/Peanut Cookie.png",
+                "description": "Freshly prepared Peanut Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 35,
+                "name": "Double Chocolate Cookie",
+                "category": "All",
+                "price": 1.35,
+                "image": "./image/Double Chocolate Cookie.png",
+                "description": "Freshly prepared Double Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 36,
+                "name": "Rainbow Cookie",
+                "category": "All",
+                "price": 1.4,
+                "image": "./image/Rainbow Cookie.png",
+                "description": "Freshly prepared Rainbow Cookie made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "AllLess": [
+            {
+                "id": 1,
+                "name": "Naan Burger",
+                "category": "All",
+                "price": 1.85,
+                "image": "./image/Naan Burger.png",
+                "description": "Freshly prepared Naan Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 13,
+                "name": "Chocolate Donut",
+                "category": "All",
+                "price": 1.2,
+                "image": "./image/Chocolate Donut.png",
+                "description": "Freshly prepared Chocolate Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 31,
+                "name": "Chocolate Cookie",
+                "category": "All",
+                "price": 0.99,
+                "image": "./image/Chocolate Cookie.png",
+                "description": "Freshly prepared Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 19,
+                "name": "Croissant",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Croissant.png",
+                "description": "Freshly prepared Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 3,
+                "name": "Beef Burger",
+                "category": "All",
+                "price": 2.4,
+                "image": "./image/Beef Burger.png",
+                "description": "Freshly prepared Beef Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 4,
+                "name": "Cheese Burger",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Chese Burger.png",
+                "description": "Freshly prepared Cheese Burger made with quality ingredients and delicious flavor."
+            }
+        ]
+    },
+    {
+        "AllLess2": [
+            {
+                "id": 1,
+                "name": "Naan Burger",
+                "category": "All",
+                "price": 1.85,
+                "image": "./image/Naan Burger.png",
+                "description": "Freshly prepared Naan Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 13,
+                "name": "Chocolate Donut",
+                "category": "All",
+                "price": 1.2,
+                "image": "./image/Chocolate Donut.png",
+                "description": "Freshly prepared Chocolate Donut made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 31,
+                "name": "Chocolate Cookie",
+                "category": "All",
+                "price": 0.99,
+                "image": "./image/Chocolate Cookie.png",
+                "description": "Freshly prepared Chocolate Cookie made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 19,
+                "name": "Croissant",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Croissant.png",
+                "description": "Freshly prepared Croissant made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 3,
+                "name": "Beef Burger",
+                "category": "All",
+                "price": 2.4,
+                "image": "./image/Beef Burger.png",
+                "description": "Freshly prepared Beef Burger made with quality ingredients and delicious flavor."
+            },
+            {
+                "id": 4,
+                "name": "Cheese Burger",
+                "category": "All",
+                "price": 2.1,
+                "image": "./image/Chese Burger.png",
+                "description": "Freshly prepared Cheese Burger made with quality ingredients and delicious flavor."
+            }
+        ]
+    }
+]
